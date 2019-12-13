@@ -7,6 +7,19 @@
     animation: blind-in .5s;
 }
 
+.delay1 {
+    animation-delay: .5s, 0s;
+    -moz-animation-delay: .5s, 0s;
+    -webkit-animation-delay: .5s, 0s;
+    -o-animation-delay: .5s, 0s;
+}
+
+.delay1 {
+    animation-delay: 1s, 0s;
+    -moz-animation-delay: 1s, 0s;
+    -webkit-animation-delay: 1s, 0s;
+    -o-animation-delay: 1s, 0s;
+}
 
 @-webkit-keyframes blind-in {
     0% {
