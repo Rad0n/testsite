@@ -12,35 +12,19 @@ setInterval(() => {
 
     if (document.body.scrollTop > testDiv1.offsetTop - h || document.documentElement.scrollTop > testDiv1.offsetTop - h) {
         document.getElementById("eventDiv1").className = "blind-content in origin-top";
-    } else {
-        document.getElementById("eventDiv1").className = "";
-    }
-
-    if (document.body.scrollTop > testDiv2.offsetTop - h || document.documentElement.scrollTop > testDiv2.offsetTop - h) {
         document.getElementById("eventDiv2").className = "delay1 blind-content in origin-top";
-    } else {
-        document.getElementById("eventDiv2").className = "";
-    }
-
-
-    if (document.body.scrollTop > testDiv3.offsetTop - h || document.documentElement.scrollTop > testDiv3.offsetTop - h) {
         document.getElementById("eventDiv3").className = "delay1 blind-content in origin-top";
-    } else {
-        document.getElementById("eventDiv3").className = "";
-    }
-
-    if (document.body.scrollTop > testDiv4.offsetTop - h || document.documentElement.scrollTop > testDiv4.offsetTop - h) {
         document.getElementById("eventDiv4").className = "delay2 blind-content in origin-top";
-    } else {
-        document.getElementById("eventDiv4").className = "";
-    }
-
-    if (document.body.scrollTop > testDiv5.offsetTop - h || document.documentElement.scrollTop > testDiv4.offsetTop - h) {
         document.getElementById("eventDiv5").className = "delay2 blind-content in origin-top";
     } else {
+        document.getElementById("eventDiv1").className = "";
+        document.getElementById("eventDiv2").className = "";
+        document.getElementById("eventDiv3").className = "";
+        document.getElementById("eventDiv4").className = "";
         document.getElementById("eventDiv5").className = "";
     }
 
+    
 }, 10);
 
 
